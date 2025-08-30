@@ -3,6 +3,11 @@ import './App.css';
 import { Button } from './components/Button';
 import { Question } from './components/Question';
 import Party from './assets/party.png';
+import Ring from './assets/ring.png';
+import Results from './assets/results.png';
+import Letters from './assets/letters.png';
+import Will from './assets/will.jpeg';
+import You from './assets/you.jpeg';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -44,7 +49,7 @@ function App() {
             Congratulations! You have completed the quiz. Here are your results.
           </div>
           <div className="rounded-lg w-50% max-w-[360px] object-cover rounded overflow-hidden">
-            <img src={'/results.png'} />
+            <img src={Results} />
           </div>
           <Button
             onClick={() => setCount((count) => count + 1)}
@@ -60,7 +65,7 @@ function App() {
             behind them.
           </div>
           <div className="rounded-lg w-50% max-w-[360px] object-cover rounded overflow-hidden">
-            <img src={'/letters.png'} />
+            <img src={Letters} />
           </div>
           <Button
             onClick={() => setCount((count) => count + 1)}
@@ -75,10 +80,10 @@ function App() {
             letters form a word.
           </div>
           <div className="rounded-lg w-50% max-w-[360px] object-cover rounded overflow-hidden">
-            <img src={'/will.JPG'} />
+            <img src={Will} />
           </div>
           <div className="rounded-lg w-50% max-w-[360px] object-cover rounded overflow-hidden">
-            <img src={'/you.JPG'} />
+            <img src={You} />
           </div>
           <div className="border w-[360px]">
             <div>Morning</div>
@@ -103,7 +108,7 @@ function App() {
             Bonus Question! This is just for fun. No impact on your results.
           </div>
           <div className="rounded-lg w-50% max-w-[360px] object-cover rounded overflow-hidden">
-            <img src={'/ring.png'} />
+            <img src={Ring} />
           </div>
           <div className="flex flex-col gap-3 mt-5 w-[85%] md:w-[50%]">
             <Button onClick={() => setCount(0)} label="Yes" />

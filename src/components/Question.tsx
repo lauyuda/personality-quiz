@@ -1,4 +1,7 @@
 import { Button } from './Button';
+import Friends from '../assets/friends.png';
+import Food from '../assets/food.png';
+import Clock from '../assets/clock.png';
 
 const getQuestionInfo = (questionNumber: number) => {
   switch (questionNumber) {
@@ -23,7 +26,7 @@ const getQuestionInfo = (questionNumber: number) => {
       };
     case 3:
       return {
-        imageUrl: './friends.png',
+        imageUrl: Friends,
         questionText:
           'Right after your long 6 hours class, it is time to head for the dinner party. You and your friends decided to meetup and head there together. However, none of you are sure of the way, what do you do?',
         options: [
@@ -33,7 +36,7 @@ const getQuestionInfo = (questionNumber: number) => {
       };
     case 4:
       return {
-        imageUrl: './food.png',
+        imageUrl: Food,
         questionText:
           'Reaching the party, you find that you are the last group to arrive. Everything has been setup and ready for you to start eating. Which food catches your eye most?',
         options: [
@@ -62,7 +65,7 @@ const getQuestionInfo = (questionNumber: number) => {
       };
     case 7:
       return {
-        imageUrl: '/clock.png',
+        imageUrl: Clock,
         questionText:
           'Even though it is getting late, the party is still going strong and your friend offers you to stay the night. How will you conclude the night?',
         options: [
