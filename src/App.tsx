@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { Button } from './components/Button';
 import { Question } from './components/Question';
+import Party from './assets/party.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +22,7 @@ function App() {
             Are you ready to find out your party snack guest type?
           </div>
           <div className="rounded-lg w-50% max-w-[360px] aspect-square object-cover rounded overflow-hidden">
-            <img src={'/party.png'} />
+            <img src={Party} />
           </div>
           <Button
             onClick={() => setCount((count) => count + 1)}
