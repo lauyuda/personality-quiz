@@ -8,7 +8,7 @@ export const Button = ({
   return (
     <button
       onClick={onClick}
-      className="px-5 py-3 bg-[#3B8BBD] text-white rounded-lg text-lg shadow-md"
+      className="px-5 py-3 bg-[#3B8BBD] text-white rounded-lg shadow-md"
     >
       {label}
     </button>

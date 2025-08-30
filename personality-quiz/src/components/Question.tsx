@@ -90,13 +90,13 @@ export const Question = ({
 
   return (
     <div className="w-full flex flex-col items-center justify-center overflow-hidden">
-      <div className="text-xl text-center">Qn. {questionNumber} / 8</div>
+      <div className="text-lg text-center">Qn. {questionNumber} / 8</div>
 
-      <div className="mt-5 rounded-lg w-50% max-w-[400px] aspect-square object-cover rounded overflow-hidden">
+      <div className="mt-5 rounded-lg w-50% max-w-[360px] aspect-square object-cover rounded overflow-hidden">
         <img src={imageUrl} />
       </div>
 
-      <div className="mt-5 text-xl text-center w-[85%] md:w-[50%]">
+      <div className="mt-5 text-lg text-center w-[85%] md:w-[50%]">
         {questionText}
       </div>
       <div className="flex flex-col gap-3 mt-5 w-[85%] md:w-[50%]">
