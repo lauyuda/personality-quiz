@@ -94,20 +94,20 @@ function App() {
             Along with the first letters of the first seven questions, the first
             letters form a word.
           </div>
-          <div className="rounded-lg w-50% max-w-[360px] object-cover rounded overflow-hidden">
+          <div className="rounded-lg w-40% max-w-[300px] object-cover rounded overflow-hidden">
             <img src={Will} />
           </div>
-          <div className="rounded-lg w-50% max-w-[360px] object-cover rounded overflow-hidden">
+          <div className="rounded-lg w-40% max-w-[300px] object-cover rounded overflow-hidden">
             <img src={You} />
           </div>
-          <div className="border rounded w-[360px] py-2 px-4">
+          <div className="border rounded w-[300px] py-2 px-4">
             <div>Morning has arrived...</div>
             <div>AHHH! You almost forgot...</div>
             <div>Right after your long 6 hours class...</div>
             <div>Reaching the party...</div>
             <div>You are going to play a boardgame...</div>
           </div>
-          <div className="border rounded w-[360px] py-2 px-4">
+          <div className="border rounded w-[300px] py-2 px-4">
             <div>Managing to win a round...</div>
             <div>Even though it is getting late...</div>
           </div>
