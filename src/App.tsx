@@ -91,8 +91,8 @@ function App() {
       {isLetterQuestionTwo && (
         <div className="flex flex-col items-center justify-center gap-5">
           <div className="text-lg text-center w-[85%] md:w-[50%] text-gray-800">
-            Along with the first letters of the first seven questions, the first
-            letters form a word.
+            Hint: The first characters of each letter and question form a
+            message.
           </div>
           <div className="rounded-lg w-40% max-w-[300px] object-cover rounded overflow-hidden">
             <img src={Will} />
