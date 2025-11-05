@@ -119,7 +119,7 @@ function App() {
       )}
       {isProposalQuestion && (
         <div className="flex flex-col items-center justify-center gap-5">
-          <div className="text-3xl text-center w-[85%] md:w-[50%] text-gray-800">
+          <div className="text-3xl text-center w-[85%] text-gray-800">
             <div className="text-lg">Qn. 8/8</div>
             Will you marry me?
           </div>
@@ -137,7 +137,7 @@ function App() {
       )}
       {isVoucher && (
         <div className="flex flex-col items-center justify-center gap-5">
-          <div className="text-2xl text-center w-[85%] md:w-[50%] text-gray-800">
+          <div className="text-2xl text-center w-[85%] text-gray-800">
             YIPPIE YAY! <br />
             YOU WON A FREE GIFT!
           </div>
