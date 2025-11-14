@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import { Button } from './components/Button';
 import { Question } from './components/Question';
@@ -9,6 +9,7 @@ import Letters from './assets/letters.png';
 import Will from './assets/will.jpeg';
 import You from './assets/you.jpeg';
 import Voucher from './assets/voucher.png';
+import confetti from 'canvas-confetti';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,15 @@ function App() {
   const isLetterQuestionTwo = count === 11;
   const isProposalQuestion = count === 12;
   const isVoucher = count === 13;
+
+  useEffect(() => {
+    if (isVoucher) {
+      confetti({
+        particleCount: 100,
+        origin: { y: 1 },
+      });
+    }
+  }, [isVoucher]);
 
   return (
     <div className="bg-linear-to-br from-[#B1DEF5] via-[#D7EAF6] to-[#B1DEF5] min-h-screen h-screen flex flex-col items-center justify-center font-nunito text-gray-800">
