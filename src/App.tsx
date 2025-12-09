@@ -76,10 +76,11 @@ function App() {
           <div className="text-3xl text-center w-[85%] md:w-[50%] text-gray-800">
             Bonus Question! This is just for fun. No impact on your results.
           </div>
-          <Button
+          {/* <Button
             onClick={() => setCount((count) => count + 1)}
             label="Reveal the question"
-          />
+          /> */}
+          <Button onClick={() => setCount(12)} label="Reveal the question" />
         </div>
       )}
 
